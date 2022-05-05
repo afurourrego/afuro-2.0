@@ -1,5 +1,3 @@
-
-
 (function () {
   var context = {
     body: document.getElementById('body'),
