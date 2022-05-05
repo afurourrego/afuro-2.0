@@ -21,3 +21,8 @@ body.light .select-mode {
   background-image: url('../img/dark-mode.svg');
   animation: rotate-btn-animation 1s;
 }
+
+body.light .toast {
+  background-color: #fff;
+  color: #1c2733;
+}

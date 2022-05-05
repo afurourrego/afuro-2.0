@@ -19,3 +19,8 @@ body .bar img {
 .select-mode {
   background-image: url('../img/light-mode.svg');
 }
+
+.toast {
+  background-color: #1c2733;
+  color: #fff;
+}
