@@ -76,6 +76,10 @@ body {
   width: -webkit-fill-available;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 #toast-container {
   min-width: auto;
   bottom: 13%;
