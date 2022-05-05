@@ -1,0 +1,55 @@
+/* light mode */
+
+@keyframes light-mode-body-animation {
+  0% {
+    background-position: 100% 100%;
+    color: #fff;
+  }
+  50% { background-position: 0% 0%; }
+  100% {
+    background-position: 0% 0%;
+    color: #1c2733;
+  }
+}
+
+@keyframes light-mode-bar-animation {
+  0% { background-position: 0% 0% }
+  100% { background-position: 100% 100% }
+}
+
+@keyframes light-mode-btn-animation {
+  0% { filter: invert(0) brightness(0); }
+  100% { filter: invert(1) brightness(2); }
+}
+
+/* finish light mode */
+/* dark mode */
+
+@keyframes dark-mode-body-animation {
+  0% {
+    background-position: 0% 0%;
+    color: #1c2733;
+  }
+  50% { background-position: 100% 100%; }
+  100% {
+    background-position: 100% 100%;
+    color: #fff;
+  }
+}
+
+@keyframes dark-mode-bar-animation {
+  0% { background-position: 100% 100% }
+  100% { background-position: 0% 0% }
+}
+
+@keyframes dark-mode-btn-animation {
+  0% { filter: invert(1); }
+  100% { filter: invert(0); }
+}
+
+/* finish dark mode */
+
+@keyframes rotate-btn-animation {
+  0% { transform: rotate(-120deg); }
+  100% { transform: rotate(0deg); }
+}

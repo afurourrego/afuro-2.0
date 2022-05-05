@@ -1,0 +1,23 @@
+body.light {
+  background: linear-gradient(120deg, #fff, #fff, #1c2733, #121b23);
+  color: #1c2733;
+  animation: light-mode-body-animation 3s;
+  background-size: 600% 600%;
+}
+
+body.light .bar {
+  background: linear-gradient(120deg, #fff, #fff, #1c2733, #121b23);
+  animation: light-mode-bar-animation 2s;
+  background-size: 600% 600%;
+  background-position: 100% 100%;
+}
+
+body.light .bar img {
+  animation: light-mode-btn-animation 2s;
+  filter: invert(1) brightness(2);
+}
+
+body.light .select-mode {
+  background-image: url('../img/dark-mode.svg');
+  animation: rotate-btn-animation 1s;
+}
