@@ -18,6 +18,7 @@ body .bar img {
 
 .select-mode {
   background-image: url('../img/light-mode.svg');
+  animation: pulse-btn-animation 1s;
 }
 
 .toast {
