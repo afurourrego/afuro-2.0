@@ -86,7 +86,10 @@ body {
   position: fixed;
   top: auto;
   right: auto;
-  left: 37%;
+  left: 32%;
+}
+@media all and (min-width:550px){
+  #toast-container { left: 37%; }
 }
 @media all and (min-width:768px){
   #toast-container { left: 41%; }
